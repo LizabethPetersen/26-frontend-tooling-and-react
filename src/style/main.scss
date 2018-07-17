@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Handlee);
+
+$handlee: 'Handlee';
+
+body {
+  background-color: #003366;
+  font-family: $handlee;
+  color: #ff9966;
+
+  .cowsay {
+
+    label, button {
+      display: block;
+    }
+
+    ul {
+      display: inline-block;
+    }
+
+    text {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.5em;
+    }
+  }
+}
